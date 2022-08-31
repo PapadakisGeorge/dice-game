@@ -1,0 +1,72 @@
+body {
+    text-align: center;
+    font-family: 'Silkscreen', sans-serif;
+    background-color: #393E46;
+}
+
+/*Header*/
+
+.header-title {
+    text-shadow: 5px 0 #232931;
+    font-size: 8rem;
+    color: #4ECCA3;
+}
+
+/*Main Section*/
+
+.main-section {
+    padding: 10px;
+}
+
+.player-container {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.player-name {
+    font-size: 2rem;
+    color: #4ECCA3;
+}
+
+.play-btn {
+    align-items: center;
+    appearance: none;
+    background-color: #4ECCA3;
+    border-radius: 4px;
+    border-width: 0;
+    box-sizing: border-box;
+    color: #393E46;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "Silkscreen",monospace;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s,transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow,transform;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.play-btn:hover {
+    background-color: #FFF89C;
+    color: #D75281;
+}
+
+/*Footer*/
+.footer {
+    margin-top: 5%;
+    color: #EEEEEE;
+    text-align: center;
+}
